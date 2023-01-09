@@ -82,13 +82,15 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-  
+  <!--
    <table>
     <tr>
       <td><img width="300" alt="Liquide" src="https://ik.imagekit.io/liquide/images/liquideAvatar.png"></td>
       <td><img width="300" alt="Liquide" src="https://ik.imagekit.io/liquide/images/liquideAvatar.png"></td>
     </tr>
   </table>
+this is commented for now
+-->
 
 There were many libraries for adding Stories feature to react native app but most of them were not updated recently. We have created a library with most of the features which exist on Instagram/Whatsapp stories. 
 
