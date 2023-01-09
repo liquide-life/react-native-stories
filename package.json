@@ -1,17 +1,18 @@
 {
-  "name": "react-native-module-template",
-  "version": "2.5.1",
-  "description": "A starter for the React Native library written in TypeScript, with linked example project and optional native code in Swift and Kotlin.",
-  "homepage": "https://github.com/demchenkoalex/react-native-module-template#readme",
+  "name": "@liquide/react-native-stories",
+  "private": false,
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/liquide-life/react-native-stories/blob/main/README.md",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "author": "Alex Demchenko <alexdemchenko@yahoo.com>",
+  "author": "Liquide <developers@liquide.life>",
   "license": "MIT",
   "files": [
     "android",
     "ios",
     "lib",
-    "react-native-module-template.podspec",
+    "react-native-stories.podspec",
     "!android/build",
     "!.DS_Store",
     "!.gradle",
@@ -26,11 +27,18 @@
     "!xcshareddata",
     "!xcuserdata"
   ],
+  "publishConfig": {
+    "access": "public",
+    "@liquide:registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "compile": "rm -rf lib && tsc -p .",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "prepare": "yarn compile",
     "test": "jest"
+  },
+  "resolutions": {
+    "@types/react": "18.0.26"
   },
   "devDependencies": {
     "@babel/core": "^7.16.12",
@@ -63,5 +71,19 @@
       "json",
       "node"
     ]
+  },
+  "dependencies": {
+    "@types/react-native-modalbox": "^1.4.10",
+    "@types/react-native-video": "^5.0.14",
+    "expo-constants": "^14.0.2",
+    "expo-linear-gradient": "^12.0.1",
+    "expo-modules-core": "^1.1.1",
+    "react-native-3dcube-navigation": "^1.0.5",
+    "react-native-fast-image": "^8.6.3",
+    "react-native-linear-gradient": "^2.6.2",
+    "react-native-modalbox": "^2.0.2",
+    "react-native-swipe-gestures": "^1.0.5",
+    "react-native-video": "^5.2.1",
+    "react-native-webview": "^11.26.0"
   }
 }

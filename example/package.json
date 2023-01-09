@@ -1,7 +1,7 @@
 {
   "name": "example",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "scripts": {
     "android": "react-native run-android",
     "compile": "tsc -p .",
@@ -11,8 +11,23 @@
     "test": "jest"
   },
   "dependencies": {
+    "@types/react-native-modalbox": "^1.4.10",
+    "@types/react-native-video": "^5.0.14",
+    "expo-constants": "^14.0.2",
+    "expo-linear-gradient": "^12.0.1",
+    "expo-modules-core": "^1.1.1",
     "react": "^17.0.2",
-    "react-native": "^0.67.1"
+    "react-native": "^0.67.1",
+    "react-native-3dcube-navigation": "^1.0.5",
+    "react-native-fast-image": "^8.6.3",
+    "react-native-gesture-handler": "^2.8.0",
+    "react-native-linear-gradient": "^2.6.2",
+    "react-native-modalbox": "^2.0.2",
+    "react-native-reanimated": "^2.13.0",
+    "react-native-swipe-gestures": "^1.0.5",
+    "react-native-vector-icons": "^9.2.0",
+    "react-native-video": "^5.2.1",
+    "react-native-webview": "^11.26.0"
   },
   "devDependencies": {
     "@babel/core": "^7.16.12",
