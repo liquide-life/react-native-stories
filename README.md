@@ -127,6 +127,17 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 ### Prerequisites
 
+You need to install the following packages in order to make this work flawlessly.
+
+```bash
+$ npm install react-native-video react-native-reanimated react-native-gesture-handler react-native-video-cache-control
+# --- or ---
+$ yarn add react-native-video react-native-reanimated react-native-gesture-handler react-native-video-cache-control
+```
+
+
+### Installation
+
 * from npm
   ```sh
   npm install @liquide/react-native-stories
@@ -137,23 +148,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
   yarn add @liquide/react-native-stories
   ```
 
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
