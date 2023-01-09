@@ -130,21 +130,21 @@ This section should list any major frameworks/libraries used to bootstrap your p
 You need to install the following packages in order to make this work flawlessly.
 
 ```bash
-$ npm install react-native-video react-native-reanimated react-native-gesture-handler react-native-video-cache-control
+$ npm install react-native-video react-native-reanimated react-native-gesture-handler
 # --- or ---
-$ yarn add react-native-video react-native-reanimated react-native-gesture-handler react-native-video-cache-control
+$ yarn add react-native-video react-native-reanimated react-native-gesture-handler
 ```
 
 
 ### Installation
 
-* from npm
-  ```sh
+* From NPM
+  ```
   npm install @liquide/react-native-stories
   ```
   
-* from yarn
-  ```sh
+* From Yarn
+  ```
   yarn add @liquide/react-native-stories
   ```
 
