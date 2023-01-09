@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://ik.imagekit.io/liquide/tr:w-264/logos/Logo.png" alt="LiquideLogo" width="80" height="80">
+    <img src="https://ik.imagekit.io/liquide/images/liquideAvatar.png" alt="LiquideLogo" width="80" height="80">
   </a>
 
   <h3 align="center">React Native Stories Like Instagram/Snapchat/Whatsapp </h3>
@@ -82,15 +82,21 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+  
+   <table>
+    <tr>
+      <td><img width="300" alt="Liquide" src="https://ik.imagekit.io/liquide/images/liquideAvatar.png"></td>
+      <td><img width="300" alt="Liquide" src="https://ik.imagekit.io/liquide/images/liquideAvatar.png"></td>
+    </tr>
+  </table>
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+There were many libraries for adding Stories feature to react native app but most of them were not updated recently. We have created a library with most of the features which exist on Instagram/Whatsapp stories. 
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+Top Features:
+* Supports Images, Videos and Gifs.
+* Linear gradient rings around the story circles which dissapear when user taps on it.
+* A callback function is fired as soon as the user views all the stories (This will feature will be enhanced further in order to support tracking of each story viewed).
+* Minimal props.
 
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
 
