@@ -151,4 +151,73 @@ $ yarn add react-native-video react-native-reanimated react-native-gesture-handl
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Usage
+
+```javascript
+import Stories from '@liquide/react-native-stories';
+
+const data = [
+  {
+    title: "What is Liquide?",
+    username: "What is Liquide",
+    profile: "https://ik.imagekit.io/liquide/images/liquideAvatar.png",
+    stories: [
+      {
+        id: 1,
+        url: "https://ik.imagekit.io/liquide/videos/what-is-liquide-usered.mp4",
+        type: "video",
+        duration: 2,
+        isReadMore: true,
+        url_readmore: "https://github.com/liquide-life/react-native-stories",
+      },
+    ],
+  },
+  {
+    title: "Connect Broker",
+    username: "How to connect your broker",
+    profile: "https://ik.imagekit.io/liquide/images/connectBroker.png",
+    stories: [
+      {
+        id: 1,
+        url: "https://ik.imagekit.io/liquide/tr:w-0/images/trusted-brokers.png",
+        type: "image",
+        duration: 2,
+      },
+    ],
+  },
+  {
+    title: "Buy Trade Setup",
+    username: "Buy trades",
+    profile: "https://ik.imagekit.io/liquide/images/tradecardAvatar.png",
+    stories: [
+      {
+        id: 1,
+        url: "https://ik.imagekit.io/liquide/videos/how-to-buy-stocks-usered.mp4",
+        type: "video",
+        duration: 2,
+      },
+    ],
+  },
+  {
+    title: "Ask LiMo",
+    username: "How to ask LiMo",
+    profile: "https://ik.imagekit.io/liquide/images/limoAvatar.png",
+    stories: [
+      {
+        id: 1,
+        url: "https://ik.imagekit.io/liquide/videos/what-is-limo-usered.mp4",
+        type: "video",
+        duration: 2,
+      },
+    ],
+  },
+];
+
+
+const App = () => {
+  return (
+    <Stories data={data} />
+  );
+};
+
 
